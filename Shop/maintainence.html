@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <input type="file" id="fileImg" accept="image/jpg">
+   <input type="text" id="value">
+   <button>click</button>
+   <img>
+  
+</body>
+<script>
+    document.querySelector("button").onclick = ()=>{
+        var imageData = "";
+        var text = document.getElementById("value").value
+        var file = document.getElementById("fileImg").files[0]
+        var fr = new FileReader() 
+        fr.onload = ()=>{
+           imageData += fr.result
+        }
+        fr.onloadend = ()=>{
+
+            var obj = {
+             name:text,
+            source:imageData,
+            date:new Date()
+            }
+            
+
+            fetch("/post",
+        {
+            method:"POST",
+            body:JSON.stringify(obj)
+           }
+        )
+        console.log("send")
+        }
+        fr.readAsDataURL(file)
+    }
+</script>
+</html>

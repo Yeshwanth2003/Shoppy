@@ -1,0 +1,27 @@
+.logoStyle{
+height: 50px;
+margin: 25px 0 15px 15px;
+width:100px
+}
+.search{
+     position: absolute;
+     height: 40px;
+     width: 40px;
+     border-radius: 0%;
+     top: 90px;
+}
+.MainInput{
+     margin: 15px 0 15px 15px;
+}
+.AppNameOnHeader{
+     position: absolute;
+     bottom: 60px;
+     left: 150px;
+}
+#Interface{
+     height: 250px;
+     width:300px;
+}
+#IndexImage{
+     text-align: center;
+}

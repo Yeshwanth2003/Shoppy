@@ -1,0 +1,63 @@
+#infc{
+border-radius: 30px;
+margin:30px;
+height: 150px;
+width: 150px;
+}
+#searchButton{
+    border-radius: 100px;
+    height: 25px;
+    width: 25px;
+    position: relative;
+   top: 8px;
+}
+#searchingv{
+    border-radius: 100px;
+    height: 25px;
+    width: 25px;
+    position: relative;
+   top: 8px;
+}
+#head{
+    background-color: red;
+}
+
+body{
+    text-align: center;
+}
+
+#end{
+    background-color: red;
+}
+#sVIndex{
+    border-radius: 30px;
+    margin:10px;
+    height: 190px;
+    width: 190px;
+
+}
+#infoP{
+    font-weight: bolder;
+    position:relative;
+    bottom: 250px;
+    left: 250px;
+    font-size: 45px;
+}
+#infoPP{
+    font-weight: bolder;
+    position:relative;
+    bottom: 300px;
+    left: 250px;
+    font-size: 20px;
+
+}
+#mainbody{
+    background-color: lightgray;
+}
+#subDivContent
+{
+    background-color: white;
+    border-radius: 50px;
+    position: relative;
+    margin: 20px;
+}

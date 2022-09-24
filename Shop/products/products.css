@@ -1,0 +1,16 @@
+#subDivContent
+{
+    background-color: white;
+    border-radius: 50px;
+    position: relative;
+    margin: 20px;
+}
+#infc{
+     border-radius: 30px;
+     margin:30px;
+     height: 150px;
+     width: 150px;
+     }
+     body{
+          text-align: center;
+      }
